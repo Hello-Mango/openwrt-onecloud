@@ -14,7 +14,7 @@ on:
       OP_IP:
         description: '静态IP地址'     
         required: false
-        default: '192.168.2.2' 
+        default: '192.168.31.118' 
         type: string
 
       OP_rootfs:
@@ -26,13 +26,13 @@ on:
       OP_author:
         description: '定制作者'     
         required: false
-        default: 'shiyu1314' 
+        default: 'jin' 
         type: string    
 
       CUSTOM_PLUGINS:
         description: '自定义插件名称，用空格分隔'
         required: false
-        default: 'luci-app-dockerman luci-theme-aurora luci-app-ttyd luci-app-diskman luci-app-hd-idle luci-app-momo luci-app-samba4 luci-app-emby luci-app-openlist2'
+        default: 'luci-theme-aurora luci-app-ttyd luci-app-diskman luci-app-hd-idle'
         type: string
 
 env:
